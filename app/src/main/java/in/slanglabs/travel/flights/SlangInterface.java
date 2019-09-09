@@ -30,8 +30,8 @@ import static in.slanglabs.travel.flights.AppTravelAction.resetCache;
 
 class SlangInterface {
 
-    private static final String BUDDY_ID = "6b7a80d87e9a491ea7316b1ee051f4f0";
-    private static final String API_KEY = "9676113588104021af6b2c7641845b03";
+    private static final String BUDDY_ID = "BUDDY_ID";
+    private static final String API_KEY = "API_KEY";
 
     private static SlangIntentAction sAppActionHandler;
     // To initialize Slang in your application, simply call SlangInterface.init(context)
