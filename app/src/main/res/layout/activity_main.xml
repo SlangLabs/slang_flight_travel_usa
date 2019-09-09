@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/branding_layout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_branding"
+        android:text="Voice Powered Flight Search Demo"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:id="@+id/main_source_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="16dp"/>
+
+    <EditText
+        android:id="@+id/main_source_edit"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_source_tv"
+        android:layout_alignLeft="@id/main_source_tv"
+        android:hint="Enter Source"/>
+
+    <TextView
+        android:id="@+id/main_dest_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="100dp"/>
+
+    <EditText
+        android:id="@+id/main_dest_edit"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_dest_tv"
+        android:layout_alignLeft="@id/main_dest_tv"
+        android:hint="@string/enter_destination"
+        android:autofillHints=""
+        android:inputType="" />
+
+    <TextView
+        android:id="@+id/main_start_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/journey_date"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="16dp"/>
+
+    <EditText
+        android:id="@+id/main_start_edit"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_start_tv"
+        android:layout_alignLeft="@id/main_start_tv"
+        android:hint="@string/dd_mm_yyyy"
+        android:autofillHints=""
+        android:inputType="" />
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_start_edit"
+        android:layout_marginTop="60dp">
+        <Button
+            android:id="@+id/main_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/search"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_help_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_layout"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="4dp"
+        android:background="@drawable/background_box"
+        android:layout_marginTop="28dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_can_try_saying"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quot_show_flights_from_boston_to_sfo_quot"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#a17249"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quot_flights_leaving_from_boston_to_la_on_12th_july_quot"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#a17249"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quot_can_you_show_me_flights_from_tucson_on_1st_august_quot"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#a17249"/>
+    </LinearLayout>
+</RelativeLayout>

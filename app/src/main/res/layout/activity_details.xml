@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <include layout="@layout/branding_layout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_branding"
+        android:text="@string/voice_powered_flight_search_demo"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/user_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/search_criteria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#c69f59"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/details_sort_flights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/user_input"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/wow_so_many_flights"
+        android:textColor="#4a2c2a"/>
+
+    <TextView
+        android:id="@+id/details_search_updated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_below="@+id/details_sort_flights"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:text="@string/your_search_query_has_been_updated"/>
+
+    <LinearLayout
+        android:id="@+id/details_help_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details_sort_flights"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="4dp"
+        android:background="@drawable/background_box">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/you_can_try_saying" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quot_show_flights_leaving_in_the_morning_quot"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#a17249"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quot_show_flights_between_9_am_to_1_pm_quot"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#a17249"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quot_sort_by_cheapest_quot"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#a17249"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Slang Travel</string>
+    <string name="wow_so_many_flights">Wow… So many flights :)</string>
+    <string name="welcome_title">Wecome!</string>
+    <string name="contact_us">Have some feedback?</string>
+    <string name="description_text">Welcome to Slang\'s Voice Augmented eXperience for Search demo!\n\nThis app is to demo the voice capabilities of Slang and how app developers can build a smart context aware eXperience for their customers.\n\nWe hope you like it. If yes, let us know. If you don\'t, tell us but politely 😉\n\nThe Slang Team</string>
+    <string name="do_not_show">Don\'t show this again</string>
+    <string name="email_id"><u>42@slanglabs.in</u></string>
+    <string name="email_description_text">Loved it? Something broke? (We hope not)\n\nEnjoyed talking to Slang and can\’t wait to get more?\n\nIf you\’ve got thoughts, we\’re here to listen. Hit us up 🙂</string>
+    <string name="voice_powered_flight_search_demo">Voice Powered Flight Search Demo</string>
+    <string name="showing_flights_from">Showing flights from</string>
+    <string name="nyc_to_la">NYC to LA</string>
+    <string name="your_search_query_has_been_updated">Your search query has been updated.</string>
+    <string name="you_can_try_saying">You can try saying</string>
+    <string name="quot_show_flights_leaving_in_the_morning_quot">\"Show flights leaving in the morning\"</string>
+    <string name="quot_show_flights_between_9_am_to_1_pm_quot">\"Show flights between 9 AM to 1 PM\"</string>
+    <string name="quot_sort_by_cheapest_quot">\"Sort by cheapest\"</string>
+    <string name="for_12_05_2019">for 12-05-2019</string>
+    <string name="txt_contact_us">Contact Us</string>
+    <string name="quot_show_flights_from_boston_to_sfo_quot">\"Show flights from Boston to San Francisco\"</string>
+    <string name="search">Search</string>
+    <string name="dd_mm_yyyy">dd-mm-yyyy</string>
+    <string name="quot_flights_leaving_from_boston_to_la_on_12th_july_quot">\"Flights leaving from Seatle to San Jose on 12th July\"</string>
+    <string name="quot_can_you_show_me_flights_from_tucson_on_1st_august_quot">\"Can you show me flights from Atlanta on 1st August?\"</string>
+    <string name="enter_destination">Enter Destination</string>
+    <string name="journey_date">Journey Date</string>
+    <string name="enter_source">Enter Source</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+</resources>
