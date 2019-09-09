@@ -1,4 +1,4 @@
-# slang_travel
+# slang_flight_travel_usa
 A sample app to demonstrate how to handle flight booking including searching/filtering/sorting
 
 Clone this and build and run to see a demo of Slang
